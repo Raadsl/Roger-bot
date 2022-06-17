@@ -1,2 +1,2 @@
 # Roger-bot
-A simple python discord bot
+A simple dutch fun python discord bot
