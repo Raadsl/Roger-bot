@@ -179,12 +179,6 @@ async def snipe(ctx):
   except KeyError: 
       await ctx.send(f"Er zijn geen recent verwijderde berichten in #{channel.name} Joepie!")
 
-#@bot.event
-#async def on_message(message):
-#    msg = message
-#    with open("alle berichten.txt", "a") as n:
-#      n.write("\n" + "Tijd: " + str(msg.created_at) + "| " + str(msg.author.id) #+ " | <" + str(msg.author) + "> : \n" + msg.content)
-#      n.close()
-#
+
   
 bot.run(tokend)
